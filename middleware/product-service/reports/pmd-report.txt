@@ -1,0 +1,332 @@
+src/main/java/com/eshoppingzone/productservice/ProductServiceApplication.java:9:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/ProductServiceApplication.java:9:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/eshoppingzone/productservice/ProductServiceApplication.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/ProductServiceApplication.java:11:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:7:	DataClass:	DataClass: The class 'DatabaseSequence' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=4)
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:18:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/eshoppingzone/productservice/entity/DatabaseSequence.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'seq' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rating' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'image' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'price' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:38:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'review' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:39:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'specification' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:57:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:65:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:81:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:89:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rating' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:97:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'review' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:105:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'image' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:113:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'price' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:121:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'description' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:129:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'specification' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:134:	NPathComplexity:	NPathComplexity: The method 'hashCode()' has an NPath complexity of 256, current threshold is 200
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:153:	CognitiveComplexity:	CognitiveComplexity: The method 'equals(Object)' has a cognitive complexity of 37, current threshold is 15
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:153:	CyclomaticComplexity:	CyclomaticComplexity: The method 'equals(Object)' has a cyclomatic complexity of 30.
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:153:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:153:	NPathComplexity:	NPathComplexity: The method 'equals(Object)' has an NPath complexity of 2097152, current threshold is 200
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:153:	NcssCount:	NcssCount: The method 'equals(Object)' has a NCSS line count of 61.
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:155:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:155:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:157:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:157:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:159:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:159:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:160:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:163:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:163:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:165:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:165:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:168:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:168:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:170:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:170:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:173:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:173:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:175:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:175:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:177:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:177:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:179:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:179:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:182:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:182:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:184:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:184:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:187:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:187:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:189:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:189:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:192:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:192:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:194:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:194:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:197:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:197:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:199:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:199:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:202:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:202:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:204:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/eshoppingzone/productservice/entity/Product.java:204:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:20:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:20:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:27:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:28:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:34:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:34:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:36:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errors' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:37:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fieldName' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:40:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'errorMessage' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:48:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'ex' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:48:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'message' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:54:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'status' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'response' could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/GlobalExceptionHandler.java:55:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/eshoppingzone/productservice/exception/ProductNotFoundException.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/exception/ProductNotFoundException.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/exception/ProductNotFoundException.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/exception/UnauthorizedException.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/exception/UnauthorizedException.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/exception/UnauthorizedException.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'message' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/proxy/ProfileServiceProxy.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/proxy/ProfileServiceProxy.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/proxy/ProfileServiceProxy.java:10:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'validateUserRole': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:13:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findByProductName': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:15:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findByProductNameContainingIgnoreCase': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:17:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findByCategory': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/repository/ProductRepository.java:19:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findByProductType': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:32:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:32:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:34:	LongVariable:	LongVariable: Avoid excessively long variable names like NO_PRODUCT_FOUND_MESSAGE
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:35:	LongVariable:	LongVariable: Avoid excessively long variable names like ACCESS_DENIED_MESSAGE
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:38:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'productService'
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:38:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:41:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'profileServiceProxy'
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:41:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:41:	LongVariable:	LongVariable: Avoid excessively long variable names like profileServiceProxy
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:49:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:54:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'token' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dbProduct' could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'searchString' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:72:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:72:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:77:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:78:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dbProduct' could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:86:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:86:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:91:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:91:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:96:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/resource/ProductResource.java:96:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:9:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'addProducts': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:11:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllProducts': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:13:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductById': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:15:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductByName': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:17:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'updateProducts': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:19:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'deleteProductById': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:21:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'searchProducts': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:23:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:23:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductByCategory': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductService.java:25:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getProductByType': the method is declared in an interface type
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:16:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:16:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:19:	LongVariable:	LongVariable: Avoid excessively long variable names like NO_PRODUCT_FOUND_MESSAGE
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:22:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'productRepository'
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:25:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'sequenceGenerator'
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:29:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productId' could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:43:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "Product Retrieved Successfully" appears 4 times in this file; the first occurrence is on line 43
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productName' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:54:	CyclomaticComplexity:	CyclomaticComplexity: The method 'updateProducts(Product)' has a cyclomatic complexity of 12.
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'product' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:54:	NPathComplexity:	NPathComplexity: The method 'updateProducts(Product)' has an NPath complexity of 1024, current threshold is 200
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dbProductOptional' could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dbProduct' could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:96:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productId' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:97:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'dbProduct' could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:106:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'searchString' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:112:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'category' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/ProductServiceImpl.java:118:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'productType' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:18:	ImmutableField:	ImmutableField: Field 'mongoOperations' may be declared final
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'mongoOperations' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:26:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:26:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'seqName' is not assigned and could be declared final
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'counter' could be declared final
+src/main/java/com/eshoppingzone/productservice/service/SequenceGeneratorService.java:29:	ConfusingTernary:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:1:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:28:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:28:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:28:	TooManyMethods:	TooManyMethods: This class has too many methods, consider refactoring it.
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:34:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:37:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:45:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product1' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:46:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:47:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "http://image.com" appears 6 times in this file; the first occurrence is on line 47
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:47:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:48:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "A powerful smartphone with an advanced camera and long-lasting battery." appears 6 times in this file; the first occurrence is on line 48
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:49:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:50:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product2' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:51:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:51:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:53:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mockProducts' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:60:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:61:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:62:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:69:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:71:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:75:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:76:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:79:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'generatedId' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:84:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productId' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:97:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productName' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:107:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:109:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productId' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:117:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:119:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:124:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productName' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:127:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:129:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:133:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:134:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productId' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:135:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productName' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:136:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newCategory' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:137:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newDescription' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:138:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newImage' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:139:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newPrice' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:140:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newProductType' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:141:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newRating' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:141:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:141:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:142:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newReview' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:142:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:142:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:143:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newSpecification' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:143:	UseConcurrentHashMap:	UseConcurrentHashMap: If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:143:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:145:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingProduct' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:149:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'updatedProduct' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:166:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:167:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:168:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:169:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:170:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:171:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:172:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:173:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:174:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:179:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productId' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:180:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'nonExistingProduct' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:180:	LongVariable:	LongVariable: Avoid excessively long variable names like nonExistingProduct
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:191:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productId' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:192:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'existingProduct' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:205:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productId' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:214:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'category' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:215:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mockProducts' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:216:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product1' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:216:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:217:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:219:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:220:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product2' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:221:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:221:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:223:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:228:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:230:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:235:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'productType' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:236:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'mockProducts' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:237:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product1' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:237:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:238:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:240:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:241:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'product2' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:242:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:242:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:244:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new HashMap<>()`
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:249:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'products' could be declared final
+src/test/java/com/eshoppingzone/productservice/service/ProductServiceApplicationTests.java:251:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message

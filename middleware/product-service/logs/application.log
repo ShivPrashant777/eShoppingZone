@@ -1,0 +1,4 @@
+2023-06-15 18:50:11.403 INFO  c.e.p.ProductServiceApplication - Starting ProductServiceApplication using Java 17.0.6 with PID 18224 (E:\Internship\Java-Backup\CaseStudy\product-service\target\classes started by shiv0 in E:\Internship\Java-Backup\CaseStudy\product-service)
+2023-06-15 18:50:11.407 INFO  c.e.p.ProductServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-15 18:50:18.377 INFO  c.e.p.ProductServiceApplication - Started ProductServiceApplication in 8.147 seconds (process running for 9.38)
+2023-06-15 18:50:33.387 INFO  c.e.p.service.ProductServiceImpl - Retrieved All Products Successfully
