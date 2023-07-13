@@ -1,0 +1,42 @@
+spring:
+ cloud:
+   gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+              allowedOrigins: "*"
+              allowedMethods: "*"
+              allowedHeaders: "*"
+      routes:
+       - id: profile-service
+         uri: lb://PROFILE-SERVICE
+         predicates:
+           - Path=/profile-service/**
+         filters:
+           - AuthenticationFilter
+       - id: test-service
+         uri: lb://TEST-SERVICE
+         predicates:
+           - Path=/test-service/**
+         filters:
+           - AuthenticationFilter
+       - id: product-service
+         uri: lb://PRODUCT-SERVICE
+         predicates:
+           - Path=/product-service/**
+         filters:
+           - AuthenticationFilter
+       - id: cart-service
+         uri: lb://CART-SERVICE
+         predicates:
+           - Path=/cart-service/**
+         filters:
+           - AuthenticationFilter
+       - id: order-service
+         uri: lb://ORDER-SERVICE
+         predicates:
+           - Path=/order-service/**
+         filters:
+           - AuthenticationFilter
