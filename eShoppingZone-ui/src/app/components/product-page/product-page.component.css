@@ -1,0 +1,16 @@
+.product-imgs {
+	width: 50%;
+}
+
+.product-imgs img {
+	max-width: 100%;
+}
+
+.product-details {
+	padding: 0 10px;
+	width: 50%;
+}
+
+.spec-table td {
+	padding: 10px;
+}

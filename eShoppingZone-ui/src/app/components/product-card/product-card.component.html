@@ -1,0 +1,29 @@
+<div class="card mx-1 h-100" style="width: 16rem">
+  <img [src]="product.image" class="card-img-top" alt="..." (click)="redirectToProductPage()" />
+  <div class="card-body">
+    <h5 class="card-title">{{ product.productName }}</h5>
+    <div>
+      <i *ngFor="let star of [].constructor(avgRating)" class="fa fa-star text-warning" aria-hidden="true"></i>
+      {{product.rating | objectLength}} Ratings
+    </div>
+    <p class="card-text my-1 text-truncate" style="font-size: 0.7em">
+      {{ product.description }}
+    </p>
+    <p class="text-success fw-bold">&#8377; {{ product.price | number:'1.2' }}</p>
+
+    <div *ngIf="user; then thenBlock else elseBlock"></div>
+    <ng-template #thenBlock>
+      <div *ngIf="user && user.roles.includes('Customer'); then innerIf else innerElse"></div>
+      <ng-template #innerIf>
+        <app-counter-btn [product]="product"></app-counter-btn>
+      </ng-template>
+      <ng-template #innerElse>
+        <button class="btn btn-warning" [routerLink]="['/products/edit-product/', product.productId]">Edit
+          Product</button>
+      </ng-template>
+    </ng-template>
+    <ng-template #elseBlock>
+      <button class="btn btn-primary" routerLink="/login">Login to Add to Cart</button>
+    </ng-template>
+  </div>
+</div>

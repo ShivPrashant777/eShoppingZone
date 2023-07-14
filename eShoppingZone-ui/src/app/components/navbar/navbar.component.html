@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg" style="background-color: #e6e9f1"
+  [ngStyle]="{'display': displayNav ? 'flex' : 'none'}">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">eShoppingZone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/login" *ngIf="!this.user">Login</a>
+        </li>
+        <li class="nav-item" *ngIf="this.user && user.roles.includes('Customer')">
+          <a class="nav-link" routerLinkActive="active" routerLink="/cart">Cart</a>
+        </li>
+        <li class="nav-item" *ngIf="this.user && user.roles.includes('Merchant')">
+          <a class="nav-link" routerLinkActive="active" routerLink="/products/add-product">Add Product</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-50">
+        <li class="nav-item me-3 w-100">
+          <form class="ms-auto w-75" role="search">
+            <div class="input-group">
+              <input class="form-control fontAwesome" type="search" placeholder="&#xF002; Search" aria-label="Search"
+                #searchInput (input)="onSearchChange(searchInput.value)" />
+            </div>
+          </form>
+        </li>
+        <li class="nav-item dropdown" *ngIf="this.user">
+          <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li id="username" class="dropdown-item">Hi <i>{{user.username}}</i></li>
+            <li><button class="dropdown-item" routerLink="/profile/edit-profile"><i
+                  class="fa-solid fa-pen-to-square"></i> Edit Profile</button></li>
+            <li><button class="dropdown-item" routerLink="/profile/orders" *ngIf="user.roles.includes('Customer')"><i
+                  class="fa-solid fa-receipt"></i> Your
+                Orders</button></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <button class="dropdown-item" (click)="onLogout()"><i class="fa-solid fa-right-from-bracket"></i>
+                Logout</button>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

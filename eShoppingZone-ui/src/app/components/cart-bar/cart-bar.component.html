@@ -1,0 +1,15 @@
+<div class="container">
+    <nav class="navbar fixed-bottom navbar-light bg-danger text-light mx-auto rounded px-3" id="cart-bar">
+        <div class="container">
+            <div class="left">
+                <p class="m-0">{{cart.products.length}} Items Added</p>
+                <b>Total: {{cart.totalPrice | number:'1.2'}}</b>
+            </div>
+            <div class="right">
+                <button class="btn btn-outline-light" routerLink="/cart">
+                    View Cart
+                </button>
+            </div>
+        </div>
+    </nav>
+</div>

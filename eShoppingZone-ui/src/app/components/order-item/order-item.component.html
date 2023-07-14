@@ -1,0 +1,32 @@
+<div class="d-flex justify-content-between py-3 px-5 order">
+    <div class="d-flex flex-column w-50">
+        <h5>Order Id: <span class="fw-lighter">{{order.orderId}}</span></h5>
+        <p class="text-primary"><b>Placed On:</b> {{order.orderDate}}</p>
+        <div *ngIf="order.address;" class="address">
+            <p><b>Delivery Address:</b> <br>{{order.address.houseNumber}}, {{order.address.streetName}},
+                {{order.address.colonyName}} <br>
+                {{order.address.city}}, {{order.address.state}}. {{order.address.pincode}}
+            </p>
+        </div>
+        <h4>Total Amount Paid: <span class="fw-bold text-success">&#8377; {{order.amountPaid| number:'1.2'}}</span>
+        </h4>
+    </div>
+    <div class="d-flex flex-column w-50">
+        <h5>Products</h5>
+        <div *ngFor="let product of order.products" class="d-flex" [routerLink]="['/products', product.productId]">
+            <div class="product">
+                <div class="d-flex align-items-center">
+                    <img [src]="product.image" alt="" class="me-3">
+                    <div class="d-flex flex-column">
+                        <h5><span class="fw-lighter">Product Name: </span>{{product.productName}}</h5>
+                        <p><b>Description: </b>{{product.description}}</p>
+                        <p class="text-success"><b>Price: </b>&#8377; {{product.price}}</p>
+                        <p><b>Quantity: </b>{{product.quantity}}</p>
+                    </div>
+                </div>
+                <hr style="color: #565656; min-width: 80%; margin: 15px" />
+            </div>
+        </div>
+    </div>
+</div>
+<hr style="color: #565656; min-width: 80%; margin: 15px" />

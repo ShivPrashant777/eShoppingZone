@@ -1,0 +1,48 @@
+<div class="auth-page d-flex align-items-center">
+    <div class="right d-flex flex-column justify-content-center px-5">
+        <h1>Shop now on <span class="fw-lighter text-primary">eShoppingZone</span></h1>
+        <h3 class="fw-normal"><i> Your One-Stop Destination for Online Shopping Bliss</i></h3>
+        <button role="button" class="fs-lg fw-lighter cta-btn" routerLink="/products">View
+            Products </button>
+    </div>
+    <div class="left d-flex flex-column justify-content-center">
+        <div id="login-form-box" class="py-5">
+            <app-alert-box [alert]="alert"></app-alert-box>
+            <div class="row">
+                <div class="col-xs-12 px-5 col-md-offset-3 mx-auto">
+                    <h3>Welcome Back</h3>
+                    <div *ngIf="isLoading; then thenBlock else elseBlock"></div>
+                    <ng-template #thenBlock>
+                        <div class="mx-auto spinner-border text-primary" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </ng-template>
+                    <ng-template #elseBlock>
+                        <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" id="username" class="form-control" ngModel name="username" required
+                                    #username="ngModel" />
+                                <span class="help-block" *ngIf="!username.valid && username.touched">Please enter a
+                                    username</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="form-control" ngModel name="password"
+                                    required minlength="6" #password="ngModel" />
+                                <span class="help-block" *ngIf="!password.valid && password.touched">Please enter a
+                                    valid password (Mininimum 6 characters)</span>
+                            </div>
+                            <div class="my-3">
+                                <button class="btn btn-primary w-100" type="submit" [disabled]="!authForm.valid">
+                                    Login</button>
+                            </div>
+                            Don't have an account? <span role="button" class="text-primary"
+                                routerLink="/register">Signup</span>
+                        </form>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

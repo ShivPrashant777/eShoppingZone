@@ -1,0 +1,27 @@
+#counter-btn {
+    position: relative;
+  }
+  
+  .value-button {
+    width: 36px;
+    height: 36px;
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+    color: #dc3545;
+    background-color: #fff;
+    border: 1px solid #dc3545;
+  }
+  
+  .quantity {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .value-button p {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }

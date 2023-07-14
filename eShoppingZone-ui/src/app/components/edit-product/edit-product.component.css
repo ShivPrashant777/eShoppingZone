@@ -1,0 +1,15 @@
+.form-group {
+    margin: 10px 0;
+}
+
+.spec-group { 
+    margin: 0;
+}
+
+.fa-plus {
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}

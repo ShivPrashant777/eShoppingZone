@@ -1,0 +1,15 @@
+<div class="container my-5">
+    <h3>Your Orders</h3>
+    <hr style="color: #565656; min-width: 80%; margin-right: 5px" />
+    <div *ngIf="isLoading; then thenBlock; else elseBlock"></div>
+    <ng-template #thenBlock>
+        <div class="mx-auto spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </ng-template>
+    <ng-template #elseBlock>
+        <div class="d-flex flex-column bg-white rounded" id="cart-items-container" *ngFor="let order of orders">
+            <app-order-item [order]="order"></app-order-item>
+        </div>
+    </ng-template>
+</div>

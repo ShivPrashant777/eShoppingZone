@@ -1,0 +1,49 @@
+.auth-page {
+    background: #e6e9f1;
+    height: 100vh;
+}
+
+.right {
+    width: 60%;
+    height: 100%;
+    background-image: url('../../../../assets/yty1.png');
+    background-size: 100% 100%;
+}
+
+.cta-btn {
+    padding: 5px 10px;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    width: fit-content;
+}
+
+.cta-btn:hover {
+    background: #609ffc;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    background-image: url('../../../../assets/login-bg.jpg');
+    background-size: 100% 100%;
+}
+
+#login-form-box {
+    margin-left: -100px;
+    width: 80%;
+    background: #fffffff6;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+.help-block {
+    font-size: 0.8em;
+    color: red;
+}

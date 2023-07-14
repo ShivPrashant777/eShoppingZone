@@ -1,0 +1,75 @@
+<div class="d-flex my-3">
+    <div *ngIf="isLoading; then thenBlock; else elseBlock"></div>
+    <ng-template #thenBlock>
+        <div class="mx-auto spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </ng-template>
+    <ng-template #elseBlock>
+        <div class="product-imgs">
+            <img [src]="product.image" alt="..." id="productImage" />
+        </div>
+        <div class="product-details">
+            <div class="d-flex justify-content-between">
+                <h3 id="productName">{{product.productName}}</h3>
+                <div *ngIf="user; then displayAuth else displayUnauth"></div>
+                <ng-template #displayAuth>
+                    <div *ngIf="user && user.roles.includes('Customer'); then displayCartBtn else displayEditBtn"></div>
+                    <ng-template #displayCartBtn>
+                        <app-counter-btn [product]="product"></app-counter-btn>
+                    </ng-template>
+                    <ng-template #displayEditBtn>
+                        <button class="btn btn-warning"
+                            [routerLink]="['/products/edit-product/', product.productId]">Edit
+                            Product</button>
+                    </ng-template>
+                </ng-template>
+                <ng-template #displayUnauth>
+                    <button class="btn btn-primary" routerLink="/login">Login to Add to Cart</button>
+                </ng-template>
+            </div>
+            <div>
+                <i *ngFor="let star of [].constructor(avgRating)" class="fa fa-star text-warning"
+                    aria-hidden="true"></i>
+                {{product.rating | objectLength}} Ratings
+            </div>
+            <span class="badge bg-primary">{{product.productType}}</span>
+            <hr style="color: #565656; margin-right: 5px" />
+            <p>
+                {{product.description}}
+            </p>
+            <h3 class="fw-bold">&#8377; {{product.price | number:'1.2'}} </h3>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <button class="nav-link" [class.active]="displaySpec" aria-current="page"
+                        (click)="showSpecs()">About
+                        this item</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" [class.active]="!displaySpec" (click)="showReviews()">Reviews</button>
+                </li>
+            </ul>
+            <!-- Specification -->
+            <div *ngIf="displaySpec; then thenBlock else elseBlock"></div>
+            <ng-template #thenBlock>
+                <table class="spec-table">
+                    <tr *ngFor="let spec of product.specification | keyvalue">
+                        <td><b>{{spec.key}}</b></td>
+                        <td>{{spec.value}}</td>
+                    </tr>
+                </table>
+            </ng-template>
+            <!-- Reviews -->
+            <ng-template #elseBlock>
+                <div class="user-reviews p-3" *ngFor="let review of product.review | keyvalue">
+                    <div class="review">
+                        <i class="fa fa-user" aria-hidden="true"></i> {{review.key}}
+                        <p class="text-secondary">{{review.value}}</p>
+                    </div>
+                </div>
+            </ng-template>
+
+
+        </div>
+    </ng-template>
+</div>

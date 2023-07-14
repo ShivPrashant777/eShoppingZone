@@ -1,0 +1,23 @@
+.card {
+  max-height: 470px;
+  border: 1px solid rgb(235, 235, 235);
+}
+
+.card:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-img-top {
+  max-height: 256px;
+  object-fit: cover;
+}
+
+.card-img-top:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+

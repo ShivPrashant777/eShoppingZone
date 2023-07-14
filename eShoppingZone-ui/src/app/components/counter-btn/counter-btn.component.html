@@ -1,0 +1,18 @@
+<div *ngIf="product.quantity !== 0; then thenBlock else elseBlock"></div>
+<ng-template #thenBlock>
+    <div class="d-flex my-2" id="counter-btn">
+        <div class="p-2 value-button d-flex align-items-center justify-content-center rounded-start" id="decrease"
+            value="Decrease Value" (click)="decreaseQuantity()">
+            <p>-</p>
+        </div>
+        <p class="quantity w-25 d-flex align-items-center justify-content-center border border-danger mb-0">
+            {{product.quantity}}</p>
+        <div class="p-2 value-button d-flex align-items-center justify-content-center rounded-end" id="increase"
+            value="Increase Value" (click)="increaseQuantity()">
+            <p>+</p>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #elseBlock><button href="#" class="btn btn-danger" (click)="addToCart()">Add to cart <i
+            class="fa fa-shopping-cart" aria-hidden="true"></i></button></ng-template>

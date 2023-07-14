@@ -1,0 +1,13 @@
+<div class="d-flex align-items-center justify-content-between px-3">
+    <div class="left d-flex align-items-center w-75">
+        <img [src]="product.image" alt="" class="card-img-top w-25 me-3">
+        <div class="d-flex flex-column">
+            <h4>{{product.productName}}</h4>
+            <p>{{product.description}}</p>
+        </div>
+    </div>
+    <div class="right">
+        <h3>&#8377; {{product.price}}</h3>
+        <app-counter-btn [product]="product"></app-counter-btn>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.order {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.product {
+    border-radius: 7px;
+}
+.product:hover {
+    cursor: pointer;
+    background: #fbfbfb;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+}
+
+.product img {
+    width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.product p {
+    margin: 5px;
+}

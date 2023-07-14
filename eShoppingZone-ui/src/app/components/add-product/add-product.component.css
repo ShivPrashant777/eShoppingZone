@@ -1,0 +1,28 @@
+.form-group {
+    margin: 10px 0;
+}
+
+.spec-group { 
+    margin: 0;
+}
+
+.fa-plus {
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+.help-block {
+    font-size: 0.8em;
+    color: red;
+}
+
+.preview-img {
+    width: 100%;
+}

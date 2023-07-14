@@ -1,0 +1,5 @@
+<div *ngIf="alert.message !== ''" class="container">
+    <div class="alert w-50 mx-auto" [ngClass]="alert.type == 'info' ? 'alert-success': 'alert-danger'" role="alert">
+        <b>{{alert.message}}</b>
+    </div>
+</div>
